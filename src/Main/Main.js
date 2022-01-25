@@ -1,5 +1,6 @@
 import React from 'react';
 import { animals } from '../data';
+import AnimalCard from '../AnimalCard/AnimalCard';
 
 export default function Main(props) {
   return <main>
@@ -7,7 +8,14 @@ export default function Main(props) {
     {
       // console.log(props.animals)
       props.animals.map((animal, i) =>
-        <p key={i}>{animal.name}</p>
+        <AnimalCard
+          key={animal.i}
+          name = {animal.name}
+          type = {animal.type}
+          says = {animal.says}
+          top = {animal.top}
+          left = {animal.left}
+        />
       )
     }
   </main>;

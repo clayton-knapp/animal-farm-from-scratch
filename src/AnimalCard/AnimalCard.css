@@ -1,0 +1,8 @@
+.animal-card {
+width: 250px;
+position: absolute;
+}
+
+.animal-card img {
+  width: 100px;
+}
