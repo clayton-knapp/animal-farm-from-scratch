@@ -2,15 +2,15 @@ import React from 'react';
 
 import './AnimalCard.css';
 
-export default function AnimalCard(props) {
+export default function AnimalCard({ name, type, says, top, left }) {
   return (
-    <div className="animal-card" style = {{ top:props.top, left:props.left }} >
+    <div className="animal-card" style = {{ top:top, left:left }} >
       {/* image */}
-      <img src={`/animals/${props.type}.svg`} />
+      <img src={`/animals/${type}.svg`} />
       {/* name */}
-      <h2>{props.name}</h2>
+      <h2>{name}</h2>
       {/* says */}
-      <p>{props.says}</p>
+      <p>{says}</p>
     </div>
   );
 }
