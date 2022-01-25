@@ -1,15 +1,16 @@
 import React from 'react';
-import { animals } from '../data';
 import AnimalCard from '../AnimalCard/AnimalCard';
 
+import './Main.css';
+
+
 export default function Main(props) {
-  return <main>
-    <p>list animals here</p>
+  return <main style={{ backgroundImage: 'url(/background.png)' }}>
     {
       // console.log(props.animals)
       props.animals.map((animal, i) =>
         <AnimalCard
-          key={animal.i}
+          key={i}
           name = {animal.name}
           type = {animal.type}
           says = {animal.says}
