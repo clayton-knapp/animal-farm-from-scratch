@@ -13,7 +13,7 @@ export default function AnimalList(props) {
           // says = {animal.says}
           // top = {animal.top}
           // left = {animal.left}
-          {...animal}
+          {...animal} //copies all the properties
         />
       )
     }
