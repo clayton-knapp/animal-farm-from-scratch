@@ -9,5 +9,8 @@ export default function Main(props) {
     <AnimalList
       animals = {props.animals}
     />
+    <AnimalList
+      animals = {props.moreAnimals}
+    />
   </main>;
 }

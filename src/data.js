@@ -55,3 +55,59 @@ export const animals = [
   },
 ];
   
+export const moreAnimals = [
+  {
+    name: 'Carol the Cow',
+    type: 'cow',
+    says: "PLEASE DON'T EAT ME!",
+    top: '650px',
+    left: '10%',
+    size: '200px',
+    color: 'white'
+  },
+  {
+    name: 'Don the Donkey',
+    type: 'donkey',
+    says: 'Arggg Imma Kick You!',
+    top: '550px',
+    left: '25%',
+    size: '175px',
+    color: 'gray'
+  },
+  {
+    name: 'Glenn the Goose',
+    type: 'goose',
+    says: 'I flew to the moon once',
+    top: '770px',
+    left: '40%',
+    size: '100px',
+    color: 'orange'
+  },
+  {
+    name: 'Porky the Pig',
+    type: 'pig',
+    says: 'Anyone smell bacon?',
+    top: '650px',
+    left: '55%',
+    size: '150px',
+    color: 'pink'
+  },
+  {
+    name: 'Surfy the Spider',
+    type: 'spider',
+    says: 'Catch a wave bro!',
+    top: '660px',
+    left: '70%',
+    size: '50px',
+    color: 'lightblue'
+  },
+  {
+    name: 'Steve the Sheep',
+    type: 'sheep',
+    says: 'BAH BAH',
+    top: '625px',
+    left: '85%',
+    size: '150px',
+    color: 'tan'
+  },
+];

@@ -10,7 +10,7 @@ export default function AnimalCard({ name, type, says, top, left, size, color })
       {/* name */}
       <h2 style={{ backgroundColor:color }}>{name}</h2>
       {/* says */}
-      <p>{says}</p>
+      <p style={{ backgroundColor:color }}>{says}</p>
     </div>
   );
 }
