@@ -1,0 +1,12 @@
+footer {
+  height: 40px;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-family:c ursive;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+
+}
